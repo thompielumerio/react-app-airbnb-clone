@@ -1,0 +1,69 @@
+/*nav*/
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+
+/*hero*/
+section {
+    padding: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section .img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+
+section .herotext-container{
+    display: grid;
+}
+
+section .herotext-container h1{
+    margin-top: 30px;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+section .herotext-container p{
+    width: 340px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+/*card*/
+
+
+
+.items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 100px;
+}
+
+.items-container .item{
+    width: 175px;
+    margin-bottom: 50px;
+}
+
+.items-container .item .card--image{
+    height: 275px;
+    width: 196px;
+}
+
