@@ -5,6 +5,7 @@ function Navbar() {
   return (
       <nav>
           <img src="./img/airbnb.png" alt="logo" className='nav-logo'/>
+          <p>AirBnb Clone</p>
       </nav>
     
   )
